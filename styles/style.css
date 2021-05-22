@@ -1,0 +1,82 @@
+* {
+  font-family: "Righteous", cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #333533;
+
+  /* background: rgb(207, 219, 213);
+  background: linear-gradient(
+    90deg,
+    rgba(207, 219, 213, 1) 0%,
+    rgba(232, 237, 223, 1) 100%
+  ); */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5cb5c;
+}
+
+.header-text {
+  color: #333533;
+  font-size: 3rem;
+  text-shadow: 2px 2px #e8eddf;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+.catan-map-normal {
+  margin-top: 100px;
+}
+
+.catan-map-expansion {
+  margin-top: -30px;
+}
+
+.btn-game-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn {
+  font-size: 2rem;
+  background: #3b3b3b;
+  border: none;
+  color: #f5cb5c;
+  border-radius: 3px;
+  padding: 10px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s;
+  text-align: center;
+  text-shadow: 5px 5px #242423;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.4rem);
+}
+
+.btn:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0);
+}
+
+.btn-text {
+  font-size: 1.2rem;
+}
+
+.catan-map-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -30px;
+}
