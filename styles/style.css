@@ -6,13 +6,6 @@
 body {
   margin: 0;
   padding: 0;
-
-  /* background: rgb(207, 219, 213);
-  background: linear-gradient(
-    90deg,
-    rgba(207, 219, 213, 1) 0%,
-    rgba(232, 237, 223, 1) 100%
-  ); */
 }
 
 .header {
@@ -103,11 +96,16 @@ body {
   }
   .catan-map-expansion {
     transform: scale(0.55);
-    margin-top: -100px;
   }
 
   .catan-map-normal {
     transform: scale(0.55);
-    margin-top: 70px;
   }
 }
+
+/*background: rgb(207, 219, 213);
+  background: linear-gradient(
+  90deg,
+  rgba(207, 219, 213, 1) 0%,
+  rgba(232, 237, 223, 1) 100% 
+);*/
