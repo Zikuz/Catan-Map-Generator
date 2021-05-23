@@ -17,34 +17,34 @@ btnExpansion.addEventListener('click', () => {
 
 
     let images = [
-        '/images/clay.png', 
-        '/images/clay.png', 
-        '/images/clay.png', 
-        '/images/clay.png', 
-        '/images/clay.png', 
-        '/images/wool.png',
-        '/images/wool.png',
-        '/images/wool.png',
-        '/images/wool.png',
-        '/images/wool.png',
-        '/images/wool.png',
-        '/images/wood.png',
-        '/images/wood.png',
-        '/images/wood.png',
-        '/images/wood.png',
-        '/images/wood.png',
-        '/images/wood.png',
-        '/images/stone.png',
-        '/images/stone.png',
-        '/images/stone.png',
-        '/images/stone.png',
-        '/images/stone.png',
-        '/images/grain.png',
-        '/images/grain.png',
-        '/images/grain.png',
-        '/images/grain.png',
-        '/images/grain.png',
-        '/images/grain.png'
+        'images/clay.png', 
+        'images/clay.png', 
+        'images/clay.png', 
+        'images/clay.png', 
+        'images/clay.png', 
+        'images/wool.png',
+        'images/wool.png',
+        'images/wool.png',
+        'images/wool.png',
+        'images/wool.png',
+        'images/wool.png',
+        'images/wood.png',
+        'images/wood.png',
+        'images/wood.png',
+        'images/wood.png',
+        'images/wood.png',
+        'images/wood.png',
+        'images/stone.png',
+        'images/stone.png',
+        'images/stone.png',
+        'images/stone.png',
+        'images/stone.png',
+        'images/grain.png',
+        'images/grain.png',
+        'images/grain.png',
+        'images/grain.png',
+        'images/grain.png',
+        'images/grain.png'
     ] 
 
     function randomMap(array) {
@@ -61,8 +61,8 @@ btnExpansion.addEventListener('click', () => {
         image.src = images[index];      
         index+=1;
     });
-    desertExpansion.src = '/images/desert.png';
-    desertExpansion2.src = '/images/desert.png';
+    desertExpansion.src = 'images/desert.png';
+    desertExpansion2.src = 'images/desert.png';
 
 })
 
@@ -77,24 +77,24 @@ btnNormal.addEventListener('click', () => {
     desertExpansion2.src = "";
 
     let images = [
-        '/images/clay.png', 
-        '/images/clay.png', 
-        '/images/clay.png', 
-        '/images/wool.png',
-        '/images/wool.png',
-        '/images/wool.png',
-        '/images/wool.png',
-        '/images/wood.png',
-        '/images/wood.png',
-        '/images/wood.png',
-        '/images/wood.png',
-        '/images/stone.png',
-        '/images/stone.png',
-        '/images/stone.png',
-        '/images/grain.png',
-        '/images/grain.png',
-        '/images/grain.png',
-        '/images/grain.png'
+        'images/clay.png', 
+        'images/clay.png', 
+        'images/clay.png', 
+        'images/wool.png',
+        'images/wool.png',
+        'images/wool.png',
+        'images/wool.png',
+        'images/wood.png',
+        'images/wood.png',
+        'images/wood.png',
+        'images/wood.png',
+        'images/stone.png',
+        'images/stone.png',
+        'images/stone.png',
+        'images/grain.png',
+        'images/grain.png',
+        'images/grain.png',
+        'images/grain.png'
     ] 
 
     function randomMap(array) {
@@ -111,5 +111,5 @@ btnNormal.addEventListener('click', () => {
         image.src = images[index];      
         index+=1;
     });
-    desertNormal.src = '/images/desert.png';
+    desertNormal.src = 'images/desert.png';
 })
