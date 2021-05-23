@@ -133,24 +133,24 @@ img {
 
 @media only screen and (min-device-width: 100px) and (max-device-width: 319px) {
   .header-text {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .btn {
-    font-size: 1.5rem;
-    text-shadow: 2px 2px #242423;
+    font-size: 0.7rem;
+    text-shadow: 1px 1px #242423;
   }
 
   .btn-text {
-    font-size: 0.9rem;
+    font-size: 0.5rem;
   }
 
   .catan-map-expansion {
-    transform: scale(0.65);
+    transform: scale(0.45);
   }
 
   .catan-map-normal {
-    transform: scale(0.8);
+    transform: scale(0.55);
   }
 }
 
