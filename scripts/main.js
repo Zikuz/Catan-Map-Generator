@@ -112,12 +112,12 @@ const generateMapExpansion = () => {
     });
 }
 
-btnExpansion.addEventListener('mousemove', () => {
+btnExpansion.addEventListener('click', () => {
     clearMapNormal()
     generateMapExpansion();
 })
 
-btnNormal.addEventListener('mousemove', () => {
+btnNormal.addEventListener('click', () => {
     clearMapExpansion()
     generateMapNormal();
 })
