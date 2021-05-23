@@ -1,5 +1,6 @@
 * {
   font-family: "Righteous", cursive;
+  user-select: none;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
   ); */
 }
 
-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,12 +29,12 @@ header {
   text-shadow: 2px 2px #e8eddf;
 }
 
-nav {
+.nav {
   background: #333533;
   height: 10vh;
 }
 
-main {
+.main {
   height: 80vh;
   background: #333533;
   display: flex;
