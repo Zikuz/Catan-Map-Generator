@@ -81,6 +81,10 @@ body {
   margin-bottom: -30px;
 }
 
+img {
+  outline: none;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .header-text {
     font-size: 1.8rem;
@@ -94,18 +98,44 @@ body {
   .btn-text {
     font-size: 0.7rem;
   }
+
   .catan-map-expansion {
     transform: scale(0.55);
   }
 
   .catan-map-normal {
-    transform: scale(0.55);
+    transform: scale(0.65);
   }
 }
 
-/*background: rgb(207, 219, 213);
+@media only screen and (min-device-width: 480px) and (max-device-width: 700px) {
+  .header-text {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px #242423;
+  }
+
+  .btn-text {
+    font-size: 0.9rem;
+  }
+
+  .catan-map-expansion {
+    transform: scale(0.65);
+  }
+
+  .catan-map-normal {
+    transform: scale(0.8);
+  }
+}
+
+/*
+  background: rgb(207, 219, 213);
   background: linear-gradient(
   90deg,
   rgba(207, 219, 213, 1) 0%,
   rgba(232, 237, 223, 1) 100% 
-);*/
+);
+*/
