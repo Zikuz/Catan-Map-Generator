@@ -15,7 +15,6 @@ btnExpansion.addEventListener('click', () => {
 
     desertNormal.src = "";
 
-
     let images = [
         'images/clay.png', 
         'images/clay.png', 
@@ -61,6 +60,7 @@ btnExpansion.addEventListener('click', () => {
         image.src = images[index];      
         index+=1;
     });
+    
     desertExpansion.src = 'images/desert.png';
     desertExpansion2.src = 'images/desert.png';
 
@@ -108,8 +108,9 @@ btnNormal.addEventListener('click', () => {
     let index = 0;
 
     mapNormal.forEach(image => {
-        image.src = images[index];      
+        image.src = images[index];   
         index+=1;
     });
+
     desertNormal.src = 'images/desert.png';
 })
