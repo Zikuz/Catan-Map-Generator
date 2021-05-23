@@ -5,7 +5,6 @@
 body {
   margin: 0;
   padding: 0;
-  background: #333533;
 
   /* background: rgb(207, 219, 213);
   background: linear-gradient(
@@ -20,6 +19,7 @@ header {
   align-items: center;
   justify-content: center;
   background: #f5cb5c;
+  height: 10vh;
 }
 
 .header-text {
@@ -29,15 +29,20 @@ header {
 }
 
 nav {
-  margin-top: 30px;
+  background: #333533;
+  height: 10vh;
 }
 
-.catan-map-normal {
-  margin-top: 100px;
+main {
+  height: 80vh;
+  background: #333533;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .catan-map-expansion {
-  margin-top: -30px;
+  transform: scale(0.9);
 }
 
 .btn-game-type {
@@ -57,6 +62,7 @@ nav {
   transition: transform 0.3s;
   text-align: center;
   text-shadow: 5px 5px #242423;
+  margin-top: 20px;
 }
 
 .btn:hover {
@@ -93,5 +99,14 @@ nav {
 
   .btn-text {
     font-size: 0.7rem;
+  }
+  .catan-map-expansion {
+    transform: scale(0.55);
+    margin-top: -100px;
+  }
+
+  .catan-map-normal {
+    transform: scale(0.55);
+    margin-top: 70px;
   }
 }
