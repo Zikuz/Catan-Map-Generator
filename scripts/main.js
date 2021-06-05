@@ -122,7 +122,6 @@ btnNormal.addEventListener('click', () => {
     generateMapNormal();
 })
 
-
 const generateStartMap = () => {
     let images = [
         'images/clay.png', 
@@ -160,5 +159,3 @@ const generateStartMap = () => {
 window.addEventListener('load', () => {
     generateStartMap();
 });
-
-
